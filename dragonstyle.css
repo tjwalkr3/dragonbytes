@@ -1,0 +1,34 @@
+/* Color palette from Coolors
+https://coolors.co/palette/0d1b2a-1b263b-415a77-778da9-e0e1dd */
+
+:root {
+    --site-background: #e0e1dd;
+    --content-box: #778da9;
+    --text-color: #0d1b2a;
+    --header-background: #1b263b;
+    --highlights: #415a77;
+}
+
+body, html {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.page-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.site-header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.header-image {
+    height: 100%;
+    width: auto;
+    box-sizing: border-box;
+}
